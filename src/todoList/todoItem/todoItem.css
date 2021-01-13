@@ -1,0 +1,26 @@
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+
+  color: #60687b;
+}
+
+.info-block {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  color: #8e99b2;
+  font-size: 18px;
+}
+
+.status-panel {
+  flex-grow: 4;
+}
+
+.date-panel {
+  flex-grow: 1;
+  text-align: right;
+}
+
+

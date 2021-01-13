@@ -1,0 +1,63 @@
+.control-block {
+  text-align: right;
+}
+
+.view-button{
+  color: white;
+  background-color: #9dc9f3;
+}
+
+.view-button:hover {
+  cursor: pointer;
+  background-color: #92bee7;
+}
+
+.postpone-button {
+  color: white;
+  background-color: #c8b4da;
+}
+
+.postpone-button:hover {
+  cursor: pointer;
+  background-color: #b39ec5;
+}
+
+.resume-button {
+  color: white;
+  background-color: #ae8fb1;
+}
+
+.resume-button:hover {
+  cursor: pointer;
+  background-color: #a283a5;
+}
+
+.delete-button {
+  color: white;
+  background-color: #424e74;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  background-color: #35405f;
+}
+
+.done-button {
+  color: white;
+  background-color: #889bd3;
+}
+
+.done-button:hover {
+  cursor: pointer;
+  background-color: #7d8ec2;
+}
+
+button {
+  width: 125px;
+  height: 30px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+  font-size: 16px;
+}
