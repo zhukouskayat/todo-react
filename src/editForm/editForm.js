@@ -11,6 +11,7 @@ class TodoForm extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleClear = this.handleClear.bind(this);
   }
 
   handleChange(event) {
@@ -33,6 +34,10 @@ class TodoForm extends React.Component {
     this.props.onCreateTodo(todo);
   }
 
+  handleClear(event) {
+    this.setState({ todoDescription: "" });
+  }
+
   render() {
     return (
       <div className="editor-form">
@@ -47,7 +52,7 @@ class TodoForm extends React.Component {
         />
         <div className="form-row-right">
         <input type="submit" value="Add" id="add-todo-button" />
-        <input type="button" value="Clear" id="clear-form-button" />
+        <input type="button" value="Clear" id="clear-form-button" onClick={this.handleClear} />
         </div>
       </form>
       </div>
