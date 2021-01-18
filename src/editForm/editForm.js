@@ -32,6 +32,7 @@ class TodoForm extends React.Component {
   };
 
     this.props.onCreateTodo(todo);
+    this.setState({ todoDescription: "" });
   }
 
   handleClear(event) {
