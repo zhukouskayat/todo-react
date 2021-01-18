@@ -1,12 +1,13 @@
 import React from "react";
 import "./controlBlock.css";
+import Button from "./button/button.js"
 
 const ControlBlock = () => (
   <React.Fragment>
-    <button className="view-button">View</button>
-    <button className="postpone-button">Postpone</button>
-    <button className="done-button">Done</button>
-    <button className="delete-button">Delete</button>
+    <Button className="view" name="View"/>
+    <Button className="postpone" name="Postpone"/>
+    <Button className="done" name="Done"/>
+    <Button className="delete" name="Delete"/>
   </React.Fragment>
 );
 

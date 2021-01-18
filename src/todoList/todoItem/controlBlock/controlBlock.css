@@ -2,62 +2,52 @@
   text-align: right;
 }
 
-.view-button{
+.view{
   color: white;
   background-color: #9dc9f3;
 }
 
-.view-button:hover {
+.view:hover {
   cursor: pointer;
   background-color: #92bee7;
 }
 
-.postpone-button {
+.postpone {
   color: white;
   background-color: #c8b4da;
 }
 
-.postpone-button:hover {
+.postpone:hover {
   cursor: pointer;
   background-color: #b39ec5;
 }
 
-.resume-button {
+.resume {
   color: white;
   background-color: #ae8fb1;
 }
 
-.resume-button:hover {
+.resume:hover {
   cursor: pointer;
   background-color: #a283a5;
 }
 
-.delete-button {
+.delete {
   color: white;
   background-color: #424e74;
 }
 
-.delete-button:hover {
+.delete:hover {
   cursor: pointer;
   background-color: #35405f;
 }
 
-.done-button {
+.done {
   color: white;
   background-color: #889bd3;
 }
 
-.done-button:hover {
+.done:hover {
   cursor: pointer;
   background-color: #7d8ec2;
-}
-
-button {
-  width: 125px;
-  height: 30px;
-  border-radius: 25px;
-  margin-top: 10px;
-  margin-left: 10px;
-
-  font-size: 16px;
 }
